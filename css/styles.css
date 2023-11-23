@@ -1,0 +1,159 @@
+ul {
+
+    list-style: none;
+}
+
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: #1C2225;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+/**===============================about===================*/
+
+
+.about {
+    margin: 0 auto;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about-container-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 335px;
+}
+
+.about-title {
+    color: #FCF9F9;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.37;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+}
+
+.about-description-store, .about-description {
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+}
+
+.about-description {
+    margin-top: 20px;
+}
+
+.about-menu {
+    margin-top: 50px;
+    position: relative;
+}
+
+.about-foto {
+    width: 335px;
+    height: 499px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .about-container {
+        padding-left: 32px;
+        padding-right: 32px;
+        
+    }
+
+    .about-container-description {
+        width: 704px;
+    }
+
+    .about-title {
+        font-size: 44px;
+        line-height: 1.45;
+    }
+    
+    .about-description-store,
+    .about-description {
+        font-size: 16px;
+    }
+    
+    .about-menu {
+        margin-top: 40px;
+    }
+
+    .about-foto {
+        width: 704px;
+        height: 545px;
+    }
+    
+}
+
+@media screen and (min-width: 1280px) {
+
+.about {
+}
+
+.about-container {
+    padding: 100px 150px;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-container-description {
+    width: 436px;
+    height: 454px;
+}
+
+.about-foto {
+    width: 594px;
+    height: 595px;
+}
+.about-menu {
+    margin-top: 0;
+}
+
+}
