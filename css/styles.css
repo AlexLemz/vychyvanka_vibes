@@ -44,11 +44,12 @@ a {
 
 @media screen and (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-    .collection {
+    .about {
         background-image: url(../images/mob/about/mob_about_element.png);
         background-repeat: no-repeat;
         fill: rgba(252, 249, 249, 0.10);
-        
+        background-position: right 30px bottom 0;
+
     }
 }
 
@@ -109,7 +110,7 @@ a {
 
 @media screen and (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        .collection {
+        .about {
             background-image: url(../images/tab/about/tab_about_element.png);
             background-repeat: no-repeat;
             fill: rgba(252, 249, 249, 0.10);
@@ -151,7 +152,7 @@ a {
 
 @media screen and (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        .collection {
+        .about {
             background-image: url(../images/desk/about/desk_about_element.png);
             background-repeat: no-repeat;
             fill: rgba(252, 249, 249, 0.10);
