@@ -30,7 +30,6 @@ img {
 
 body {
     font-family: 'Manrope', sans-serif;
-    background-color: #1C2225;
 }
 
 a {
@@ -42,20 +41,15 @@ a {
 
 /**===============================about===================*/
 
-@media screen and (min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+
     .about {
-        background-image: url(./images/mob/about/mob_about_element.png);
+        background-color: #1C2225;
+        background-image: url(../images/mob/about/mob_about_element.png);
         background-repeat: no-repeat;
-        fill: rgba(252, 249, 249, 0.10);
-        background-position: 125px 203px;
+        background-position: bottom 0 right 0;
+        margin: 0 auto;
     }
-}
 
-
-.about {
-    margin: 0 auto;
-}
 
 .about-container {
     display: flex;
@@ -64,6 +58,7 @@ a {
     justify-content: center;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 50px;
 }
 
 .about-container-description {
@@ -107,15 +102,10 @@ a {
 
 @media screen and (min-width: 768px) {
 
-@media screen and (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+
         .about {
-            background-image: url(./images/tab/about/tab_about_element.png);
-            background-repeat: no-repeat;
-            fill: rgba(252, 249, 249, 0.10);
-            background-position: 151px 399px;
+            background-image: url(../images/tab/about/tab_about_element.png);
         }
-    }
 
 
 
@@ -143,22 +133,15 @@ a {
         margin-top: 40px;
     }
 
-    .about-foto {
-    }
-    
 }
 
 @media screen and (min-width: 1280px) {
 
-@media screen and (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .about {
-            background-image: url(./images/desk/about/desk_about_element.png);
-            background-repeat: no-repeat;
-            fill: rgba(252, 249, 249, 0.10);
-            background-position: 795px 141px;
-        }
-    }
+
+.about {
+    background-image: url(../images/desk/about/desk_about_element.png);
+}
+
 
 .about-container {
     padding: 100px 150px;
@@ -172,8 +155,6 @@ a {
     height: 454px;
 }
 
-.about-foto {
-}
 .about-menu {
     margin-top: 0;
 }
