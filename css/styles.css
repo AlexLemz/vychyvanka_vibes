@@ -48,8 +48,7 @@ a {
         background-image: url(../images/mob/about/mob_about_element.png);
         background-repeat: no-repeat;
         fill: rgba(252, 249, 249, 0.10);
-        background-position: right 30px bottom 0;
-
+        background-position: 100% 100%;
     }
 }
 
