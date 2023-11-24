@@ -49,7 +49,6 @@ a {
         background-repeat: no-repeat;
         fill: rgba(252, 249, 249, 0.10);
         
-        background-position-y: ;
     }
 }
 
@@ -113,7 +112,7 @@ a {
         .collection {
             background-image: url(../images/tab/about/tab_about_element.png);
             background-repeat: no-repeat;
-            background-position-y: ;
+            fill: rgba(252, 249, 249, 0.10);
         }
     }
 
@@ -155,7 +154,7 @@ a {
         .collection {
             background-image: url(../images/desk/about/desk_about_element.png);
             background-repeat: no-repeat;
-            background-position-y: ;
+            fill: rgba(252, 249, 249, 0.10);
         }
     }
 
