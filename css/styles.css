@@ -30,6 +30,7 @@ img {
 
 body {
     font-family: 'Manrope', sans-serif;
+    background-color: #1C2225;
 }
 
 a {
@@ -43,7 +44,6 @@ a {
 
 
     .about {
-        background-color: #1C2225;
         background-image: url(../images/mob/about/mob_about_element.png);
         background-repeat: no-repeat;
         background-position: bottom 0 right 0;
@@ -59,13 +59,14 @@ a {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 50px;
+    max-width: 375px;
+    margin: 0 auto;
 }
 
 .about-container-description {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 335px;
 }
 
 .about-title {
@@ -103,16 +104,16 @@ a {
 @media screen and (min-width: 768px) {
 
 
-        .about {
-            background-image: url(../images/tab/about/tab_about_element.png);
-        }
+    .about {
+        background-image: url(../images/tab/about/tab_about_element.png);
+    }
 
 
 
     .about-container {
         padding-left: 32px;
         padding-right: 32px;
-        
+        max-width: 768px;
     }
 
     .about-container-description {
@@ -148,6 +149,7 @@ a {
     flex-direction: row;
     align-items: center;
     gap: 50px;
+    max-width: 1280px;
 }
 
 .about-container-description {
